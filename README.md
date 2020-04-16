@@ -68,7 +68,7 @@ console.log(diffEngine.diff(lhs, rhs));
 | templates    | Object      | see [templates](#custom-templates) | Completely customize the output.  
 
 ### Custom FormatTextStructure  
-`Usually we describe object fields such as form-value or data-object which using brief/meaningless words, but sometimes we want to describe modifies with readable/meaningful words. So 'FormatTextStructure' is suitable for you! See examples shown in blow.`
+>Usually we describe object fields such as form-value or data-object which using brief/meaningless words, but sometimes we want to describe modifies with readable/meaningful words. So 'FormatTextStructure' is suitable for you! See examples shown in blow.
 
 #### Example1
 - Diff values as below:  
