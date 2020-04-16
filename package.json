@@ -1,7 +1,7 @@
 {
   "name": "humanized-object-diff",
-  "description": "Readable Easily Differences Between Two Objects",
-  "version": "1.0.0",
+  "description": "Using Readable Sentences to describe differences between two Plain Objects, and providing self-defined templates to organize your own sentences.",
+  "version": "1.0.1",
   "author": "daxiong",
   "dependencies": {
     "date-fns": "^2.8.1",
@@ -73,7 +73,10 @@
     "deep-diff",
     "human-readable",
     "humanize",
-    "object-diff"
+    "object-diff",
+    "diff",
+    "object difference",
+    "js diff"
   ],
   "license": "MIT",
   "lint-staged": {

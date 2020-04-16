@@ -31656,7 +31656,6 @@ function formatPropertyValue(val, config) {
 }
 
 function getNewVal() {
-  console.log(this.diff.rhs, formatPropertyValue(this.diff.rhs, this.config));
   var formatted;
   if (this.diff.val) formatted = formatPropertyValue(this.diff.val, this.config);else if (this.diff.rhs) formatted = formatPropertyValue(this.diff.rhs, this.config);else formatted = '';
   return formatted.replace(/"/g, '');
@@ -41917,9 +41916,9 @@ var templates = {
   NS: 'Add Field "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>',
   DS: 'Remove Field "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>',
   ES: 'Modify Field "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>',
-  IS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, inserted a new value at index【{{INDEX}}',
-  RS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, removed a new value at index【{{INDEX}}',
-  AES: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, modified a new value at index【{{INDEX}}'
+  IS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, inserted a new value at index【{{INDEX}}】',
+  RS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, removed a new value at index【{{INDEX}}】',
+  AES: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, modified a new value at index【{{INDEX}}】'
 }; // const formatTextStructure = [
 //   {
 //     formatTextName: 'Readable Country Name',
