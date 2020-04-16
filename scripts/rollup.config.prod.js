@@ -1,7 +1,5 @@
 import filesize from 'rollup-plugin-filesize';
 import { terser } from "rollup-plugin-terser";
-import scss from 'rollup-plugin-scss';
-
 import baseConfig from './rollup.config.base';
 import {name, version, author} from '../package.json';
 
@@ -41,9 +39,6 @@ export default [
         ],
         plugins: [
             ...baseConfig.plugins,
-            scss({
-                output: './lib/css/style.css'
-            }),
             filesize()
         ]
     },
@@ -63,9 +58,6 @@ export default [
         plugins: [
             ...baseConfig.plugins,
             terser(),
-            scss({
-                output: './lib/css/style.css'
-            }),
             filesize()
         ]
     }

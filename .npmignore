@@ -2,7 +2,7 @@
 .idea/
 .git
 .vscode
-
+node_modules
 example/dist
 scripts
 src
@@ -10,7 +10,7 @@ src
 .editorconfig
 .gitignore
 .npmignore
-,remarkignore
+.remarkignore
 .travis.yml
 yarn.lock
 package-lock.json

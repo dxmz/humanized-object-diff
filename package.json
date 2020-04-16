@@ -1,7 +1,7 @@
 {
   "name": "humanized-object-diff",
   "description": "Using Readable Sentences to describe differences between two Plain Objects, and providing self-defined templates to organize your own sentences.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "daxiong",
   "dependencies": {
     "date-fns": "^2.8.1",
