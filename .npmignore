@@ -1,0 +1,16 @@
+# .npmignore
+.idea/
+.git
+.vscode
+
+example/dist
+scripts
+src
+.babelrc
+.editorconfig
+.gitignore
+.npmignore
+,remarkignore
+.travis.yml
+yarn.lock
+package-lock.json
