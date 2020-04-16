@@ -14,9 +14,9 @@ const templates = {
   NS: 'Add Field "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>',
   DS: 'Remove Field "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>',
   ES: 'Modify Field "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>',
-  IS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, inserted a new value at index【{{INDEX}}',
-  RS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, removed a new value at index【{{INDEX}}',
-  AES: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, modified a new value at index【{{INDEX}}'
+  IS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, inserted a new value at index【{{INDEX}}】',
+  RS: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, removed a new value at index【{{INDEX}}】',
+  AES: 'Array "{{FORMAT_FIELD}}" <span style="color: darkgray">(at {{{DOT_TEXT}}})<span/>, modified a new value at index【{{INDEX}}】'
 };
 
 // const formatTextStructure = [

@@ -223,7 +223,7 @@ We also expose a sensitiveFields array option which will cause a path to use the
 
 You can define each sentence in templates to be whatever you'd like them to be and you can use the following codes that will be replaced by their diff values in the final output.
 
-The available values you can plug in to your sentences are `FIELD`, `FORMAT_FIELD`, `DOT_PATH`, `DOT_TEXT`,`NEW_VALUE`,`OLD_VALUE`, `INDEX`, `POSITION`. Position is just index+1. Be aware that not all sentence types will have values for each token. For instance non array changes will not have a position or an index.
+The available values you can plug in to your sentences are `FIELD`, `FORMAT_FIELD`, `DOT_PATH`, `DOT_TEXT`,`NEW_VALUE`,`OLD_VALUE`, `INDEX`, `POSITION`. Position is just index+1. Be aware that not all sentence types will have values for each token. For instance non array changes will not have a position or an index.   
 **Notice:**
 - `FORMAT_FIELD` and `DOT_TEXT` are used for formating diff path, of course you could use all available values in your own way.  
 - templates could use html pattern to prettify diff sentences:
