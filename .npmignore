@@ -1,5 +1,5 @@
 # .npmignore
-.idea/
+.idea
 .git
 .vscode
 node_modules
@@ -8,8 +8,6 @@ scripts
 src
 .babelrc
 .editorconfig
-.gitignore
-.npmignore
 .remarkignore
 .travis.yml
 yarn.lock
